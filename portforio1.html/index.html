@@ -18,11 +18,14 @@
   <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/favicon2.ico" />
+  <!-- <link rel="shortcut icon" href="img/favicon2.ico" /> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script src="slick.js" type="text/javascript"></script>
-  <script src="sample.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <!-- <link type="text/css" href="css/photoswipe.css" rel="stylesheet">
+  <link type="text/css" href="css/default-skin/default-skin.css" rel="stylesheet">
+  <script type="text/javascript" src="js/photoswipe.min.js"></script>
+  <script type="text/javascript" src="js/photoswipe-ui-default.js"></script> -->
 
 </head>
 <body>
@@ -38,37 +41,72 @@
         <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
         <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
         <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
-        <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
+        <li><i class="fas fa-paper-plane"><a href="#contact">CONTACT</a></i></li>
       </ul>
     </nav>
     <main id="contents">
-
       <section class="section" id="Profile">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
-          </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image profile">
-              <div>
-                <img src="img/profile.jpg" alt="">
+
+        <div class="inner profile">
+          <div class ="slick">
+            <div class="section-title-block">
+              <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+            </div>
+            <div class="two-column-wrapper">
+              <div class="two-column-image profile">
+                <div>
+                  <img src="img/profile.jpg" alt="" class="img1" >
+                </div>
+              </div>
+              <div class="two-column-desc">
+                <p class="text">
+                  ・平成7年生まれ（25歳）<br>
+                  ・学歴：明治学院大学法学部<br>
+                  ・趣味：ウクレレやゴルフ/スポーツ観戦/読書/映画・アニメ鑑賞<br>
+                  ・ラグビーを10年間続けて、中・高校では花園（全国大会）に出場。<br>
+                  <br>
+                  新卒で大手飲料メーカーに入社しました。<br>
+                  1年目、新人賞を受賞。2年目は上期MVPを受賞。<br>
+                  2020年10月に症候性てんかんを発症。<br>
+                  入院中に、アプリや会社のシステムに興味を持ち、自分も『世の中を便利にするシステム』を開発をしたい！！と思い転職を決意。<br>
+                  テックキャンプでプログラミングを学び、転職活動中(2020年05月15日更新）<br>
+                  Twitter = <a href="https://twitter.com/Miyce7oX7Dq9dMb">@よし</a><br>
+                  github = <a href="https://github.com/tadashi622">tadashi622</a>
+                </p>
               </div>
             </div>
-            <div class="two-column-desc">
-              <p class="text">
-                ・平成7年生まれ（25歳）<br>
-                ・学歴：明治学院大学法学部<br>
-                ・趣味：ウクレレやゴルフ/スポーツ観戦/読書/映画・アニメ鑑賞<br>
-                ・ラグビーを10年間続けて、中・高校では花園（全国大会）に出場。<br>
-                <br>
-                新卒で大手飲料メーカーに入社しました。<br>
-                1年目、新人賞を受賞。2年目は上期MVPを受賞。<br>
-                2020年10月に症候性てんかんを発症。<br>
-                入院中に、アプリや会社のシステムに興味を持ち、自分も『世の中を便利にするシステム』を開発をしたい！！と思い転職を決意。<br>
-                テックキャンプでプログラミングを学び、転職活動中(2020年05月15日更新）<br>
-                Twitter = <a href="https://twitter.com/Miyce7oX7Dq9dMb">@よし</a><br>
-                github = <a href="https://github.com/tadashi622">tadashi622</a>
-              </p>
+          </div>
+
+          <div class ="slick">
+            <div class="section-title-block">
+              <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+            </div>
+            <div class="two-column-wrapper">
+              <div class="two-column-image profile">
+                <div>
+                  <img src="img/profile2.jpeg" alt="" class="img2" >
+                </div>
+                <div>
+                  <img src="img/profile3.jpeg" alt="" class="img3" >
+                </div>
+                <div>
+                  <img src="img/profile4.jpeg" alt="" class="img4" >
+                </div>
+              </div>
+              <div class="two-column-desc">
+                <p class="text">
+                  〜高校から千葉県ラグビー強豪校へ〜<br>
+                  高校から寮生活。1年時は、『先輩の言うことは絶対』奴隷のような扱い。1年に人権などなかった。。。<br>
+                  試合に負けると、追加練習（日をまたぐことも。。。）<br>
+                  アキレス腱断裂、孤独で壮絶なリハビリから復帰など<br>
+                  理不尽な３年間を、仲間と耐え抜いた。<br>
+                  〜結果〜<br>
+                  千葉県大会優勝<br>
+                  春の全国選抜ベスト8<br>
+                  花園（全国大会）に３年間出場ベスト16。<br>
+                  
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -176,41 +214,44 @@
           <div class="card-wrapper my-gallery">
 
             <figure class="card">
-                <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                  <img class="card-image" src="img/works/thumb/portfolio.png" alt="" />
-                <!-- </a> -->
+                  <img class="card-image" src="img/works/thumb/thumb_work01.png" alt="" />
                 <figcaption class="card-caption">
                   <p class="card-caption-title">ポートフォリオ</p>
-                  <p class="card-caption-info">自分自身のポートフォリオです。</p>
-                  <p class="card-caption-info">HTML/CSS/bootstrap4</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/portfolio" target="_blank">git hub</a></p>
+                  <p class="card-caption-info">自分自身のポートフォリオ</p>
+                  <p class="card-caption-info">HTML/CSS/</p>
+                  <p class="card-caption-url"><a class="url-link" href="https://github.com/tadashi622/portfolio" target="_blank">git hub</a></p>
                 </figcaption>
             </figure>
     
             <figure class="card">
-              <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                <img class="card-image" src="img/works/thumb/idea-share.png" alt="" />
-              <!-- </a> -->
+                <img class="card-image" src="img/works/thumb/thumb_work02.png" alt="" />
               <figcaption class="card-caption">
-                <p class="card-caption-title">アイデア共有サイト</p>
-                <p class="card-caption-info">2つの事柄を掛け合わせアイデアを見つけるものです。</p>
-                <p class="card-caption-info">投稿とコメント機能を作成しました。</p>
-                <p class="card-caption-info">html/css3/bootstarap/php/laravel</p>
-                <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/laravel-sites" target="_blank">git hub</a></p>
+                <p class="card-caption-title">某フリマアプリ</p>
+                <p class="card-caption-info">プログラミングスクールのチーム開発にて作成</p>
+                <p class="card-caption-info">haml/scss/ruby/ruby on rails/javascript/</p>
+                <p class="card-caption-url"><a class="url-link" href="https://github.com/tadashi622/free_app" target="_blank">git hub</a></p>
               </figcaption>
             </figure>
             
             <figure class="card">
-              <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                <img class="card-image" src="img/works/thumb/scraping.png" alt="" />
-              <!-- </a> -->
+                <img class="card-image" src="img/works/thumb/thumb_work03.png" alt="" />
               <figcaption class="card-caption">
-                <p class="card-caption-title">クローリング&スクレイピング</p>
-                <p class="card-caption-info">Webサイトから情報を抽出するスクリプトです。</p>
-                <p class="card-caption-info">P</p>
-                <p class="card-caption-url"><a class="url-link" href="https://github.com/spineSuzukiNaoto/php-scraping" target="_blank">git hub</a></p>
+                <p class="card-caption-title">チャットアプリ</p>
+                <p class="card-caption-info">複数人でグループを作り、チャットができる</p>
+                <p class="card-caption-info">haml/scss/ruby/ruby on rails/javascript/</p>
+                <p class="card-caption-url"><a class="url-link" href="https://github.com/tadashi622/chat-space" target="_blank">git hub</a></p>
               </figcaption>
             </figure>
+
+            <figure class="card">
+              <img class="card-image" src="img/works/thumb/thumb_work04.png" alt="" />
+            <figcaption class="card-caption">
+              <p class="card-caption-title">ブログアプリ</p>
+              <p class="card-caption-info">ブログを書いてログイン/編集/削除/メンバーの体調も一目で確認できる</p>
+              <p class="card-caption-info">haml/scss/ruby/ruby on rails/javascript/</p>
+              <p class="card-caption-url"><a class="url-link" href="https://github.com/tadashi622/stress_blog" target="_blank">git hub</a></p>
+            </figcaption>
+          </figure>
 
           </div>
         </div>
@@ -219,7 +260,7 @@
       <section class="section" id="contact">
         <div class="inner">
           <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
+            <h2 class="section-title"><i class="fas fa-paper-plane"><span class="section-title-css">CONTACT</span></i></h2>
             <p class="section-desc">
               何かありましたらtwitterのDMからどしどしご連絡をください。
             </p>
@@ -227,8 +268,9 @@
           <div class="contact-wrapper">
             <div class="contact-list" style="text-align: center;">
                 <a href="https://twitter.com/Miyce7oX7Dq9dMb" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
-                <b href="https://github.com/tadashi622"><i class="fab fa-github fa-5x"></i></b>
-            </div>
+                <a href="https://github.com/tadashi622" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfho4rWe5hzk2PUwh-6jUfq3KMFCEQvYrH0Dx8FhbcfI2niRw/viewform?usp=sf_link" target="_blank"><i class="fas fa-envelope fa-lg fa-5x"></i></a>
+              </div>
           </div>
         </div>
       </section>
@@ -322,7 +364,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <!-- <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script> -->
   <script type='text/javascript' src="js/script.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>
